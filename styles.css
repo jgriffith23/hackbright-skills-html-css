@@ -9,13 +9,13 @@ body {
 }
 
 /* Style the div that holds the whole application. */
-.job-application {
+.page-contents {
     background-color: #ff80b3;
     padding: 7em 10em 10em 10em;
 }
 
 /* Style the application's main heading. */
-.job-application > h1 {
+.page-contents > h1 {
     font-family: "Arial Black";
     text-shadow: .05em .05em #ffffff;
 
@@ -55,6 +55,7 @@ input#last-name {
     font-weight: bold;
 }
 
+/* Tweak input field sizes/font sizes so they line up. */
 input#salary-req {
     width: 6em;
 }
@@ -73,6 +74,7 @@ select > option {
     font-size: 1em;
 }
 
+/* Style submit button */
 input[type="submit"]{
     font-family: "Arial Black";
     padding: .5em;
@@ -80,6 +82,7 @@ input[type="submit"]{
     text-shadow: .1em .1em #ffffff;
 }
 
+/* Add tasteful decoration at bottom of page. */
 hr {
     margin-top: 2em;
 }
@@ -87,6 +90,7 @@ hr {
 footer {
     padding: .5em 0 2em 0;
     color: white;
+    font-family: "Arial Black";
     font-style: italic;
     font-weight: bold;
 }
